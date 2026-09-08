@@ -31,6 +31,25 @@ que lo cuantifica y la pantalla donde se ve.
 | 🛠️ **Desarrollo** | TypeScript y Python · monorepos · PostgreSQL y TimescaleDB · Vercel y contenedores |
 | 🎓 **Divulgación técnica** | Laboratorios y recorridos interactivos para enseñar ingeniería |
 
+## Actividad
+
+<!-- ACTIVIDAD:INICIO -->
+| | |
+|---|---|
+| Contribuciones en 12 meses | **2.244** |
+| Días con actividad | **126** de 367 |
+| Media por día activo | **17,8** |
+| Racha actual | **3 días** |
+| Racha más larga | **14 días** |
+| Día más productivo | **lunes** |
+| Repositorios tocados | **4** |
+
+```
+▁▁▁▁▂▄▅▃█▃▂▂▂▂▆▂▃█▅▄▂▆▆▂█▃▆▅▂▆
+```
+<sub>Últimas 30 semanas · una barra por semana · actualizado automáticamente el 2026-09-08</sub>
+<!-- ACTIVIDAD:FIN -->
+
 ## Proyectos públicos
 
 | Proyecto | De qué trata | Stack |

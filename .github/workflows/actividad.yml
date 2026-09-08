@@ -1,0 +1,51 @@
+name: Actividad
+
+# Reescribe el bloque de actividad del README con los datos de la API.
+# Corre a diario y tambien a mano desde la pestana Actions.
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 06:17 UTC ≈ 01:17 en Colombia
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - scripts/actividad.mjs
+      - .github/workflows/actividad.yml
+
+# Necesario para que el job pueda escribir el commit del README.
+permissions:
+  contents: write
+
+concurrency:
+  group: actividad
+  cancel-in-progress: true
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      # El GITHUB_TOKEN basta: el perfil publica los conteos de repositorios
+      # privados, asi que la API devuelve el total real sin token personal.
+      - name: Generar el bloque de actividad
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LOGIN: ${{ github.repository_owner }}
+        run: node scripts/actividad.mjs
+
+      - name: Publicar si cambio
+        run: |
+          if [ -z "$(git status --porcelain README.md)" ]; then
+            echo "Sin cambios en el README."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "chore(actividad): actualizar las cifras del perfil"
+          git push
