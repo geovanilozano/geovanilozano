@@ -7,9 +7,9 @@
 
 <p align="center">
   <a href="https://samstechnology.com"><img src="https://img.shields.io/badge/CTO-SAMS%20Technology-1f6feb?style=flat-square&logo=googlechrome&logoColor=white"/></a>
-  <img src="https://img.shields.io/badge/Ingeniero%20Electromec%C3%A1nico-0f766e?style=flat-square"/>
-  <img src="https://img.shields.io/badge/MSc%20Ing.%20Matem%C3%A1tica%20y%20Computacional-7c3aed?style=flat-square"/>
-  <img src="https://img.shields.io/badge/Colombia-FCD116?style=flat-square&logo=googlemaps&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Ingeniero%20Electromec%C3%A1nico-3d4451?style=flat-square"/>
+  <img src="https://img.shields.io/badge/MSc%20Ing.%20Matem%C3%A1tica%20y%20Computacional-3d4451?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Colombia-3d4451?style=flat-square&logo=googlemaps&logoColor=white"/>
 </p>
 
 ---
@@ -24,30 +24,25 @@ Ese recorrido completo es lo que me interesa: entender por qué un inversor
 recorta a mediodía **y** poder escribir el servicio que lo detecta, el modelo
 que lo cuantifica y la pantalla donde se ve.
 
-| | |
-|---|---|
-| ⚡ **Sistemas de energía** | Gestión de activos fotovoltaicos, diagnóstico de pérdidas, disponibilidad contractual, curvas I-V |
-| 📐 **Modelado y análisis** | Modelo físico con PVLib, series temporales, integridad y trazabilidad del dato |
-| 🛠️ **Desarrollo** | TypeScript y Python · monorepos · PostgreSQL y TimescaleDB · Vercel y contenedores |
-| 🎓 **Divulgación técnica** | Laboratorios y recorridos interactivos para enseñar ingeniería |
+- ⚡ &nbsp;**Sistemas de energía** — gestión de activos fotovoltaicos, diagnóstico de pérdidas, disponibilidad contractual, curvas I-V
+- 📐 &nbsp;**Modelado y análisis** — modelo físico con PVLib, series temporales, integridad y trazabilidad del dato
+- 🛠️ &nbsp;**Desarrollo** — TypeScript y Python · monorepos · PostgreSQL y TimescaleDB · Vercel y contenedores
+- 🎓 &nbsp;**Divulgación técnica** — laboratorios y recorridos interactivos para enseñar ingeniería
 
 ## Actividad
 
 <!-- ACTIVIDAD:INICIO -->
-| | |
-|---|---|
-| Contribuciones en 12 meses | **2.244** |
-| Días con actividad | **126** de 367 |
-| Media por día activo | **17,8** |
-| Racha actual | **3 días** |
-| Racha más larga | **14 días** |
-| Día más productivo | **lunes** |
-| Repositorios tocados | **4** |
-
 ```
+Contribuciones en 12 meses      2.245
+Días con actividad          126 / 367
+Media por día activo             17,8
+Racha actual                   3 días
+Racha más larga               14 días
+Día más productivo              lunes
+
 ▁▁▁▁▂▄▅▃█▃▂▂▂▂▆▂▃█▅▄▂▆▆▂█▃▆▅▂▆
 ```
-<sub>Últimas 30 semanas · una barra por semana · actualizado automáticamente el 2026-09-08</sub>
+<sub>Últimas 30 semanas, una barra por semana · se actualiza solo · 2026-09-08</sub>
 <!-- ACTIVIDAD:FIN -->
 
 ## Proyectos públicos

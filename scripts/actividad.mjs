@@ -85,21 +85,22 @@ const grafico = sumas
 const n = (v, dec = 0) =>
   v.toLocaleString("es-CO", { minimumFractionDigits: dec, maximumFractionDigits: dec });
 
-const bloque = `${INICIO}
-| | |
-|---|---|
-| Contribuciones en 12 meses | **${n(total)}** |
-| Días con actividad | **${n(activos.length)}** de ${n(pasados.length)} |
-| Media por día activo | **${n(media, 1)}** |
-| Racha actual | **${n(racha)} días** |
-| Racha más larga | **${n(mejor)} días** |
-| Día más productivo | **${diaFuerte}** |
-| Repositorios tocados | **${n(c.totalRepositoriesWithContributedCommits)}** |
+// Se dibuja como bloque monoespaciado y no como tabla: una tabla de dos
+// columnas sin cabecera hace que GitHub pinte una banda gris vacia arriba.
+const fila = (etiqueta, valor) => `${etiqueta.padEnd(28)}${String(valor).padStart(9)}`;
 
+const bloque = `${INICIO}
 \`\`\`
+${fila("Contribuciones en 12 meses", n(total))}
+${fila("Días con actividad", `${n(activos.length)} / ${n(pasados.length)}`)}
+${fila("Media por día activo", n(media, 1))}
+${fila("Racha actual", `${n(racha)} días`)}
+${fila("Racha más larga", `${n(mejor)} días`)}
+${fila("Día más productivo", diaFuerte)}
+
 ${grafico}
 \`\`\`
-<sub>Últimas 30 semanas · una barra por semana · actualizado automáticamente el ${hoy}</sub>
+<sub>Últimas 30 semanas, una barra por semana · se actualiza solo · ${hoy}</sub>
 ${FIN}`;
 
 const ruta = "README.md";
