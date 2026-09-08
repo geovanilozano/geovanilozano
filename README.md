@@ -45,6 +45,16 @@ Día más productivo              lunes
 <sub>Últimas 30 semanas, una barra por semana · se actualiza solo · 2026-09-08</sub>
 <!-- ACTIVIDAD:FIN -->
 
+## Documentación técnica
+
+**[geovanilozano.github.io/documentos-tecnicos](https://geovanilozano.github.io/documentos-tecnicos/)**
+
+Una serie de documentos sobre cómo funcionan por dentro las plataformas que he
+construido: las fórmulas, los estados, las decisiones de modelado y por qué se
+tomaron. Escritos a partir del código, no como material comercial.
+
+`Sentinel` · `ZOE` · `Congela` · `Línea de transmisión 500 kV` · `Valoriza` · `Quantsys` · `MultiView Hub` · `Calculadora Termodinámica`
+
 ## Proyectos públicos
 
 | Proyecto | De qué trata | Stack |
