@@ -14,7 +14,7 @@
 
 ---
 
-## Qué hago
+## Enfoque
 
 Trabajo en el punto donde la **ingeniería energética** se encuentra con el
 **modelado matemático**, y lo llevo de punta a punta: el modelo físico, la
