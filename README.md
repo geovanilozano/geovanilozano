@@ -33,16 +33,16 @@ que lo cuantifica y la pantalla donde se ve.
 
 <!-- ACTIVIDAD:INICIO -->
 ```
-Contribuciones en 12 meses      2.895
-Días con actividad          140 / 368
-Media por día activo             20,7
-Racha actual                   5 días
+Contribuciones en 12 meses      3.020
+Días con actividad          141 / 369
+Media por día activo             21,4
+Racha actual                   6 días
 Racha más larga               15 días
 Día más productivo              lunes
 
-▁▂▄▄▃▆▃▂▂▂▂▅▂▃▆▄▃▂▄▅▂▆▂▄▄▂█▆▂▄
+▁▂▄▄▃▆▃▂▂▂▂▅▂▃▆▄▃▂▄▅▂▆▂▄▄▂█▆▂▇
 ```
-<sub>Últimas 30 semanas, una barra por semana · se actualiza solo · 2026-09-30</sub>
+<sub>Últimas 30 semanas, una barra por semana · se actualiza solo · 2026-10-01</sub>
 <!-- ACTIVIDAD:FIN -->
 
 ## Documentación técnica
